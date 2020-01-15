@@ -1,0 +1,19 @@
+{
+  "name": "cluster-server",
+  "version": "1.0.0",
+  "description": "Load balanced server using Docker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "rulyox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rulyox/cluster-server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  }
+}
